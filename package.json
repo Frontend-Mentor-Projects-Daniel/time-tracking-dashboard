@@ -1,4 +1,19 @@
 {
+  "name": "time-tracking-dashboard",
+  "version": "1.0.0",
+  "description": "Time tracking dashboard",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frontend-Mentor-Projects-Daniel/time-tracking-dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Frontend-Mentor-Projects-Daniel/time-tracking-dashboard/issues"
+  },
+  "homepage": "https://github.com/Frontend-Mentor-Projects-Daniel/time-tracking-dashboard#readme",
   "browserslist": [
     "last 1 version",
     "> 1%",
@@ -46,12 +61,5 @@
     "build": "gulp prod",
     "doc": "npx typedoc",
     "test": "vitest"
-  },
-  "description": "A time tracking dashboard",
-  "name": "time-tracking-dashboard",
-  "version": "1.0.0",
-  "main": "gulpfile.js",
-  "keywords": [],
-  "author": "Daniel Arzanipour",
-  "license": "ISC"
+  }
 }
