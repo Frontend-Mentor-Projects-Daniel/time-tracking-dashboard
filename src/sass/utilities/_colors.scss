@@ -1,0 +1,110 @@
+// BG
+.bg-light-purple {
+  background-color: var(--clr-light-purple);
+}
+
+.bg-pale-light-purple {
+  background-color: var(--clr-pale-light-purple);
+}
+
+.bg-white {
+  background-color: var(--clr-white);
+}
+
+.bg-very-dark-blue {
+  background-color: var(--clr-very-dark-blue);
+}
+
+.bg-lighter-dark-blue {
+  background-color: var(--clr-lighter-dark-blue);
+}
+
+.bg-orange {
+  background-color: var(--clr-orange);
+}
+
+.bg-blue {
+  background-color: var(--clr-blue);
+}
+
+.bg-pink {
+  background-color: var(--clr-pink);
+}
+
+.bg-green {
+  background-color: var(--clr-green);
+}
+
+.bg-purple {
+  background-color: var(--clr-purple);
+}
+
+.bg-yellow {
+  background-color: var(--clr-yellow);
+}
+
+.bg-grey {
+  background-color: var(--clr-grey);
+}
+
+// TEXT
+.text-light-purple {
+  color: var(--clr-light-purple);
+}
+
+.text-pale-light-purple {
+  color: var(--clr-pale-light-purple);
+}
+
+.text-white {
+  color: var(--clr-white);
+}
+
+.text-very-dark-blue {
+  color: var(--clr-very-dark-blue);
+}
+
+.text-lighter-dark-blue {
+  color: var(--clr-lighter-dark-blue);
+}
+
+.text-orange {
+  color: var(--clr-orange);
+}
+
+.text-blue {
+  color: var(--clr-blue);
+}
+
+.text-pink {
+  color: var(--clr-pink);
+}
+
+.text-green {
+  color: var(--clr-green);
+}
+
+.text-purple {
+  color: var(--clr-purple);
+}
+
+.text-yellow {
+  color: var(--clr-yellow);
+}
+
+.text-grey {
+  color: var(--clr-grey);
+}
+
+// HOVER
+.hover-bg-lighter-dark-blue:hover {
+  background-color: var(--clr-lighter-dark-blue);
+}
+
+.hover-bg-white:hover {
+  background-color: var(--clr-white);
+}
+
+.hover-text-white:hover {
+  color: var(--clr-white);
+}

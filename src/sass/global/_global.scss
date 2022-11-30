@@ -1,0 +1,69 @@
+/* @link https://utopia.fyi/space/calculator?c=375,18,1.2,1440,18,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
+:root {
+  // COLOURS
+  --clr-light-purple: #5747ea;
+  --clr-pale-light-purple: #bbc0ff;
+  --clr-white: #ffffff;
+  --clr-very-dark-blue: #1c204b;
+  --clr-lighter-dark-blue: #33397a;
+  --clr-orange: #ff8b64;
+  --clr-blue: #55c2e6;
+  --clr-pink: #ff5e7d;
+  --clr-green: #4bcf82;
+  --clr-purple: #7335d2;
+  --clr-yellow: #f1c75b;
+  --clr-grey: #d8d8d8;
+
+  // TYPE SCALE
+  --step-0: clamp(1.5rem, calc(1.15rem + 1.5vw), 2.5rem);
+  --step-1: clamp(2rem, calc(1.47rem + 2.25vw), 3.5rem);
+
+  // FLUID SPACE SCALE
+  --space-3xs: clamp(0.31rem, calc(0.31rem + 0vw), 0.31rem);
+  --space-2xs: clamp(0.56rem, calc(0.56rem + 0vw), 0.56rem);
+  --space-xs: clamp(0.88rem, calc(0.88rem + 0vw), 0.88rem);
+  --space-s: clamp(1.13rem, calc(1.13rem + 0vw), 1.13rem);
+  --space-m: clamp(1.69rem, calc(1.69rem + 0vw), 1.69rem);
+  --space-l: clamp(2.25rem, calc(2.25rem + 0vw), 2.25rem);
+  --space-xl: clamp(3.38rem, calc(3.38rem + 0vw), 3.38rem);
+  --space-2xl: clamp(4.5rem, calc(4.5rem + 0vw), 4.5rem);
+  --space-3xl: clamp(6.75rem, calc(6.75rem + 0vw), 6.75rem);
+
+  /* One-up pairs */
+  --space-3xs-2xs: clamp(0.31rem, calc(0.22rem + 0.38vw), 0.56rem);
+  --space-2xs-xs: clamp(0.56rem, calc(0.45rem + 0.47vw), 0.88rem);
+  --space-xs-s: clamp(0.88rem, calc(0.79rem + 0.38vw), 1.13rem);
+  --space-s-m: clamp(1.13rem, calc(0.93rem + 0.85vw), 1.69rem);
+  --space-m-l: clamp(1.69rem, calc(1.49rem + 0.85vw), 2.25rem);
+  --space-l-xl: clamp(2.25rem, calc(1.85rem + 1.69vw), 3.38rem);
+  --space-xl-2xl: clamp(3.38rem, calc(2.98rem + 1.69vw), 4.5rem);
+  --space-2xl-3xl: clamp(4.5rem, calc(3.71rem + 3.38vw), 6.75rem);
+
+  /* Custom pairs */
+  --space-s-l: clamp(1.13rem, calc(0.73rem + 1.69vw), 2.25rem);
+
+  // FONT FAMILIES
+  --ff-rubik: 'Rubik', sans-serif;
+
+  // FONT WEIGHTS
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+}
+
+body {
+  background-color: black;
+  color: var(--clr-white);
+  font-family: var(--ff-rubik);
+  font-size: var(--step-0);
+  font-weight: var(--fw-regular);
+}
+
+h2 {
+  font-size: 1.125rem;
+}
+
+p {
+  font-size: var(--step-1);
+}
