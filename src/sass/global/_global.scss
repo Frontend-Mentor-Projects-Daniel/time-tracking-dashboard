@@ -60,10 +60,19 @@ body {
   font-weight: var(--fw-regular);
 }
 
+// TODO: this is the problem
+body * {
+  font: inherit;
+}
+
 h2 {
   font-size: 1.125rem;
 }
 
 p {
   font-size: var(--step-1);
+}
+
+ul {
+  list-style: none;
 }
